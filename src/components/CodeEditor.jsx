@@ -27,8 +27,7 @@ const CodeEditor = ({ code, updateQuestion,currIndex }) => {
           height="100%"
           extensions={[java()]}
           // options={{ fontSize: '20px' }} // Adjust the font size here
-          lineNumbers
-          lineWrapping // Enable line wrapping
+         
           mode="javascript"
           onChange={handleChange} // Pass the handleChange function as onChange prop
         />
